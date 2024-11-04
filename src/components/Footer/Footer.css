@@ -1,0 +1,36 @@
+.footer{
+    padding-top: 100px;
+    background-color: #f6f6f6;
+    padding-bottom: 50px;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding-bottom: 50px;
+
+    @media (max-width: 1024px){
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer__box{
+        b{
+            font-size: 18px;
+            font-weight: 600;
+            color: #272D38;
+        }
+
+        p{
+            font-size: 16px;
+            font-weight: 300;
+            color: #667085;
+        }
+    }
+}
+
+.footer__bottom{
+    text-align: center;
+}

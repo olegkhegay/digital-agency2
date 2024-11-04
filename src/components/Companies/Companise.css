@@ -1,0 +1,18 @@
+.companies{
+    padding-top: 100px 0;
+}  
+
+.companies__title{
+    text-align: center;
+
+    p{
+        font-size: 16px;
+        font-weight: 300;
+        color: #667085;
+    }
+
+    img{
+        padding-top: 20px;
+        max-width: 100%;
+    }
+}

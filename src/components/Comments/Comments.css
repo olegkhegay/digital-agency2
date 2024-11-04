@@ -1,0 +1,45 @@
+.comments{
+    padding-top: 100px 0;
+}
+
+.comments__title{
+    text-align: center;
+
+    h4{
+        color: #272D38;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    h2{
+        padding-top: 25px;
+        color: #272D38;
+        font-size: clamp(1.5rem, 0.955rem + 2.73vw, 3rem);
+        font-weight: 700;
+    }
+}
+
+.comments__box{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    @media (max-width: 995px) {
+        flex-direction: column;
+    }
+}
+.box__card{
+    text-align: center;
+    border: 1px solid #DEDCDB80;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #DEDCDB80;
+    width: 350px;
+
+    @media (max-width: 995px) {
+        width: 80%;
+    }
+
+}
